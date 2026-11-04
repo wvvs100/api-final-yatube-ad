@@ -1,5 +1,5 @@
 from django.shortcuts import get_object_or_404
-from rest_framework import filters, generics, mixins, permissions, viewsets
+from rest_framework import filters, mixins, permissions, viewsets
 
 from posts.models import Comment, Follow, Group, Post
 from .permissions import IsAuthorOrReadOnly
