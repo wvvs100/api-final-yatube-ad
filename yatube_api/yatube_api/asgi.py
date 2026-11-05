@@ -9,6 +9,8 @@ https://docs.djangoproject.com/en/3.2/howto/deployment/asgi/
 
 import os
 
+privet = 1
+# ddddd
 from django.core.asgi import get_asgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'yatube_api.settings')
